@@ -1,5 +1,5 @@
 class Account < ActiveRecord::Base
 	belongs_to :autotestsuite
-	has_many :user
+	has_many :users
 	has_one :accounthistory
 end
