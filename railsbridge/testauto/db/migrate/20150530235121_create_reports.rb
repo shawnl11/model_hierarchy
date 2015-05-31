@@ -1,6 +1,7 @@
 class CreateReports < ActiveRecord::Migration
   def change
     create_table :reports do |t|
+      t.integer :reportingtool_id
 
       t.timestamps null: false
     end
